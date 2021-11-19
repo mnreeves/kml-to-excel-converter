@@ -1,0 +1,25 @@
+{
+  "name": "kml-to-excel-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "convert.js",
+  "dependencies": {
+    "exceljs": "^4.3.0",
+    "wkt": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natsir-productions/kml-to-excel-converter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natsir-productions/kml-to-excel-converter/issues"
+  },
+  "homepage": "https://github.com/natsir-productions/kml-to-excel-converter#readme"
+}
