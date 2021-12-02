@@ -44,6 +44,26 @@ const run = async () => {
   console.log("File is written");
 };
 
+
+const countDataType = (features) => {
+  let pointType = 0;
+  let lineStringType = 0;
+  let polygonType = 0;
+
+  features.forEach(feature => {
+    const type = feature['geometry']['type'];
+
+    type === 'Point' && pointType++;
+    type === 'LineString' && lineStringType++;
+    type === 'Polygon' && polygonType++;
+  })
+
+  return {
+    pointType, lineStringType, polygonType
+  }
+};
+
+
 /**
  * @param {object} objLocation 
  */
